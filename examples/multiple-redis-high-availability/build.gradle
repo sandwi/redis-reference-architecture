@@ -1,3 +1,4 @@
+/* Configured in root build.gradle
 buildscript {
     ext {
         springBootVersion = '2.0.0.RELEASE'
@@ -15,12 +16,15 @@ apply plugin: 'org.springframework.boot'
 apply plugin: 'io.spring.dependency-management'
 
 group = 'io.pivotal.pcfredis'
-version = '0.0.1-SNAPSHOT'
+
 sourceCompatibility = 1.8
 
 repositories {
     mavenCentral()
 }
+*/
+
+version = '0.0.1-SNAPSHOT'
 
 dependencies {
     compile('org.springframework.boot:spring-boot-starter-data-redis')

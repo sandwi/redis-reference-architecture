@@ -6,8 +6,8 @@ import lombok.NoArgsConstructor;
 
 import java.io.Serializable;
 
-@Data
 @NoArgsConstructor
+@Data
 public class Token implements Serializable {
     private String data;
     private String id;
